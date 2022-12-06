@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="348.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddModelController">
+   <children>
+      <Button layoutX="503.0" layoutY="290.0" mnemonicParsing="false" onAction="#goBack" prefHeight="32.0" prefWidth="60.0" text="Назад" />
+      <Button layoutX="191.0" layoutY="267.0" mnemonicParsing="false" onAction="#addModel" prefHeight="47.0" prefWidth="128.0" text="Добавить модель" />
+      <Label layoutX="106.0" layoutY="85.0" text="Производитель" />
+      <Label layoutX="110.0" layoutY="131.0" text="Новая модель" />
+      <ChoiceBox fx:id="make" layoutX="225.0" layoutY="81.0" prefWidth="150.0" />
+      <TextField fx:id="name" layoutX="226.0" layoutY="127.0" promptText="Введите название" />
+      <Label layoutX="119.0" layoutY="174.0" text="Стоимость" />
+      <TextField fx:id="price" layoutX="226.0" layoutY="170.0" promptText="Введите стоимость" />
+   </children>
+</Pane>

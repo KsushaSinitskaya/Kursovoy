@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="291.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RegisterClientController">
+   <children>
+      <Button layoutX="144.0" layoutY="217.0" mnemonicParsing="false" onAction="#register" prefHeight="46.0" prefWidth="134.0" text="Зарегистрироваться" />
+      <Label layoutX="40.0" layoutY="40.0" text="Имя" />
+      <TextField fx:id="name" layoutX="40.0" layoutY="61.0" />
+      <TextField fx:id="surname" layoutX="226.0" layoutY="61.0" />
+      <TextField fx:id="login" layoutX="40.0" layoutY="129.0" />
+      <TextField fx:id="password" layoutX="226.0" layoutY="129.0" />
+      <Label layoutX="225.0" layoutY="40.0" text="Фамилия" />
+      <Label layoutX="41.0" layoutY="104.0" text="Имя пользователя" />
+      <Label layoutX="224.0" layoutY="104.0" text="Пароль" />
+      <Button layoutX="466.0" layoutY="240.0" mnemonicParsing="false" onAction="#goBack" text="Назад" />
+   </children>
+</Pane>

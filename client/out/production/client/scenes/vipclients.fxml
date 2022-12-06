@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controllers.VipClientsForManagerController">
+   <children>
+      <Label layoutX="161.0" layoutY="14.0" prefHeight="61.0" prefWidth="278.0" text="Список VIP-клиентов">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="26.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listView" layoutX="69.0" layoutY="75.0" prefHeight="200.0" prefWidth="462.0" />
+      <Button layoutX="537.0" layoutY="250.0" mnemonicParsing="false" onAction="#goBack" text="Назад" />
+   </children>
+</Pane>

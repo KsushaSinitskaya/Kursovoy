@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="330.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PieChartController">
+    <children>
+        <Button layoutX="512.0" layoutY="275.0" mnemonicParsing="false" onAction="#goBack" prefHeight="32.0" prefWidth="54.0" text="Назад" />
+        <PieChart fx:id="pieChart" layoutX="28.0" layoutY="23.0" prefHeight="284.0" prefWidth="457.0" />
+    </children>
+</Pane>

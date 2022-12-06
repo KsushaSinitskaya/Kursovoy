@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddSupplierController">
+   <children>
+      <Button fx:id="addManager" layoutX="136.0" layoutY="225.0" mnemonicParsing="false" onAction="#addSupplier" prefHeight="40.0" prefWidth="93.0" text="Добавить" />
+      <TextField fx:id="name" layoutX="34.0" layoutY="86.0" />
+      <TextField fx:id="country" layoutX="235.0" layoutY="86.0" />
+      <Label layoutX="34.0" layoutY="61.0" text="Наименование" />
+      <Label layoutX="235.0" layoutY="61.0" text="Страна" />
+      <ChoiceBox fx:id="make" layoutX="33.0" layoutY="150.0" prefWidth="150.0" />
+      <Label layoutX="35.0" layoutY="125.0" text="Производимая марка" />
+      <Button layoutX="493.0" layoutY="238.0" mnemonicParsing="false" onAction="#goBack" prefHeight="29.0" prefWidth="64.0" text="Назад" />
+   </children>
+</Pane>

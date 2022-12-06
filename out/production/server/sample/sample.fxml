@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="300.0" prefWidth="551.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="connectdb" layoutX="99.0" layoutY="219.0" mnemonicParsing="false" onAction="#connectDB" prefHeight="32.0" prefWidth="129.0" text="Подключиться" textAlignment="CENTER" />
+      <TextField fx:id="db" layoutX="128.0" layoutY="49.0" text="dealership" />
+      <TextField fx:id="prt" layoutX="350.0" layoutY="49.0" text="3306" />
+      <TextField fx:id="login" layoutX="128.0" layoutY="100.0" text="root" />
+      <PasswordField fx:id="psswrd" layoutX="128.0" layoutY="150.0" text="password" />
+      <Label layoutX="45.0" layoutY="53.0" text="База данных" />
+      <Label layoutX="41.0" layoutY="104.0" text="Пользователь" />
+      <Label layoutX="58.0" layoutY="154.0" text="Пароль" />
+      <Button fx:id="srvOn" layoutX="368.0" layoutY="219.0" mnemonicParsing="false" onAction="#startServer" prefHeight="32.0" prefWidth="113.0" text="Запустить сервер" textAlignment="CENTER" />
+      <Button fx:id="srvOff" layoutX="360.0" layoutY="219.0" mnemonicParsing="false" onAction="#stopServer" prefHeight="32.0" prefWidth="129.0" text="Остановить сервер" visible="false" />
+      <Label layoutX="311.0" layoutY="53.0" text="Порт" />
+   </children>
+</Pane>

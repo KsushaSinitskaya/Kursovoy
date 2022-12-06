@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+      <Label layoutX="34.0" layoutY="70.0" prefHeight="38.0" prefWidth="85.0" text="Имя пользователя" textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="56.0" layoutY="154.0" text="Пароль" />
+      <TextField fx:id="usr" layoutX="131.0" layoutY="76.0" text="admin" />
+      <PasswordField fx:id="psswrd" layoutX="131.0" layoutY="150.0" text="admin" />
+      <Button layoutX="77.0" layoutY="225.0" mnemonicParsing="false" onAction="#sendAcc" prefHeight="38.0" prefWidth="69.0" text="Войти" />
+      <Button layoutX="205.0" layoutY="225.0" mnemonicParsing="false" onAction="#registerClient" prefHeight="38.0" prefWidth="140.0" text="Регистрация клиента" />
+      <ImageView fitHeight="85.0" fitWidth="114.0" layoutX="387.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/car_logo_PNG1640.png" />
+         </image></ImageView>
+      <ImageView fitHeight="85.0" fitWidth="90.0" layoutX="329.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bmw_logo_PNG19706.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="90.0" layoutX="481.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/mercedes-benz-9-logo-png-transparent.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

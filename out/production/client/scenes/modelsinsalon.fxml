@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ModelsInSalonController">
+   <children>
+      <Label layoutX="192.0" layoutY="24.0" prefHeight="61.0" prefWidth="216.0" text="Модели в салоне">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="26.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listView" layoutX="161.0" layoutY="85.0" prefHeight="200.0" prefWidth="278.0" />
+      <Button layoutX="537.0" layoutY="260.0" mnemonicParsing="false" onAction="#goBack" text="Назад" />
+   </children>
+</Pane>

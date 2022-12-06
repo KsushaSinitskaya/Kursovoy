@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddInsuranceController">
+   <children>
+      <Label layoutX="52.0" layoutY="108.0" text="Тип" />
+      <TextField fx:id="type" layoutX="52.0" layoutY="138.0" />
+      <TextField fx:id="price" layoutX="252.0" layoutY="138.0" />
+      <Label layoutX="252.0" layoutY="108.0" text="Стоимость" />
+      <Button layoutX="451.0" layoutY="131.0" mnemonicParsing="false" onAction="#addInsurance" prefHeight="36.0" prefWidth="87.0" text="Добавить" />
+      <Button layoutX="480.0" layoutY="241.0" mnemonicParsing="false" onAction="#goBack" prefHeight="25.0" prefWidth="67.0" text="Назад" />
+   </children>
+</Pane>

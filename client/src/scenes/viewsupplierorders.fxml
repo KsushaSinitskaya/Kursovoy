@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ViewSupplierOrdersController">
+    <children>
+        <Button layoutX="511.0" layoutY="257.0" mnemonicParsing="false" onAction="#goBack" prefHeight="29.0" prefWidth="58.0" text="Назад" />
+      <TableView fx:id="ordersTableView" layoutX="19.0" layoutY="14.0" prefHeight="231.0" prefWidth="563.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="65.0" text="Номер" />
+          <TableColumn fx:id="supplierColumn" prefWidth="108.0" text="Поставщик" />
+            <TableColumn fx:id="makeColumn" prefWidth="107.0" text="Марка" />
+            <TableColumn fx:id="modelColumn" prefWidth="107.0" text="Модель" />
+            <TableColumn fx:id="colorColumn" prefWidth="97.0" text="Цвет" />
+            <TableColumn fx:id="quantityColumn" prefWidth="78.0" text="Количество" />
+        </columns>
+      </TableView>
+    </children>
+</Pane>

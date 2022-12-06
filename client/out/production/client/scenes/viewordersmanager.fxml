@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ViewOrdersManagerController">
+    <children>
+        <TableView fx:id="ordersTable" layoutX="26.0" layoutY="50.0" prefHeight="189.0" prefWidth="562.0">
+            <columns>
+                <TableColumn fx:id="numberColumn" editable="false" prefWidth="91.0" text="Номер" />
+                <TableColumn fx:id="acceptedColumn" editable="false" prefWidth="91.0" text="Принят" />
+                <TableColumn fx:id="completedColumn" editable="false" prefWidth="91.0" text="Завершён" />
+                <TableColumn fx:id="nameColumn" editable="false" prefWidth="91.0" text="Имя" />
+                <TableColumn fx:id="surnameColumn" editable="false" prefWidth="91.0" text="Фамилия" />
+                <TableColumn fx:id="makeColumn" editable="false" prefWidth="91.0" text="Марка" />
+                <TableColumn fx:id="modelColumn" editable="false" prefWidth="105.0" text="Модель" />
+                <TableColumn fx:id="yearColumn" editable="false" prefWidth="85.0" text="Год" />
+                <TableColumn fx:id="countryColumn" editable="false" prefWidth="85.0" text="Сборка" />
+                <TableColumn fx:id="colorColumn" editable="false" prefWidth="91.0" text="Цвет" />
+                <TableColumn fx:id="insuranceColumn" editable="false" prefWidth="81.0" text="Страховка" />
+                <TableColumn fx:id="priceColumn" editable="false" prefWidth="81.0" text="Цена" />
+            </columns>
+        </TableView>
+        <Button layoutX="37.0" layoutY="248.0" mnemonicParsing="false" onAction="#markAccepted" prefHeight="42.0" prefWidth="95.0" text="Отметить принятым" textAlignment="CENTER" wrapText="true" />
+        <Button layoutX="146.0" layoutY="248.0" mnemonicParsing="false" onAction="#markCompleted" prefHeight="42.0" prefWidth="105.0" text="Отметить завершённым" textAlignment="CENTER" wrapText="true" />
+        <Button layoutX="265.0" layoutY="248.0" mnemonicParsing="false" onAction="#deleteOrder" prefHeight="42.0" prefWidth="95.0" text="Удалить заказ" textAlignment="CENTER" wrapText="true" />
+        <Button fx:id="back" layoutX="511.0" layoutY="256.0" mnemonicParsing="false" onAction="#goBack" prefHeight="30.0" prefWidth="59.0" text="Назад" />
+      <Label layoutX="40.0" layoutY="19.0" text="Поиск по модели" />
+      <TextField fx:id="search" layoutX="146.0" layoutY="15.0" />
+    </children>
+</Pane>
